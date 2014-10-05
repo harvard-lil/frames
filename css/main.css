@@ -4,13 +4,9 @@
 .header-text {
 	line-height: 42px;
 	color: #FF3535;
-
-	/*font: 700 55px/55px 'Ubuntu', sans-serif;*/
-	/*font: 700 57px/55px 'PT Sans Narrow', sans-serif;*/
-	font: 600 65px/55px "open sans";
+	font: 300 65px/55px "Lato";
 	letter-spacing: -1.6px;
-	margin-bottom: 30px;
-
+	margin-bottom: 50px;
 }
 
 .container {
@@ -23,30 +19,37 @@
 	text-align: middle;
 }
 
+img {
+	padding: 0 20px;
+}
+
 .image-title {
 	margin-top: 35px;
-	margin-bottom: 5px;
-	font: 400 33px/30px 'open sans';
+	margin-bottom: 8px;
+	font: 300 33px/30px 'Lato';
 	color: #E89625;
 }
 
 .image-desc .btn {
-	border-radius: 0px;
+	border-radius: 2px;
 	border-width: 2px;
-	color: #666;	
 	border-color: #7FCCFF;
 	font-size: 16px;
-	padding: 5px 25px;
+	padding-top: 5px;
+	min-width: 220px;
+	letter-spacing: .8px;
+	margin-right: 10px;
+	color: #777;
+	font: 300 16px/22px 'Open Sans', sans-serif;
+}
+
+.image-desc .btn:hover {
+	background-color: #e5f5ff;
 }
 
 .sub-desc {
-	font-size: 17px;
 	color: #777;
-	font-weight: 300;
+	margin-bottom: 17px;
+	font: 300 18px/25px 'Open Sans', sans-serif;
 	
-}
-
-.text-container {
-	/*temporary: */
-	padding-left: 32px;
 }
