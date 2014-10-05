@@ -1,0 +1,52 @@
+/* color palette, https://kuler.adobe.com/Dim-light-color-theme-4475373 */
+
+
+.header-text {
+	line-height: 42px;
+	color: #FF3535;
+
+	/*font: 700 55px/55px 'Ubuntu', sans-serif;*/
+	/*font: 700 57px/55px 'PT Sans Narrow', sans-serif;*/
+	font: 600 65px/55px "open sans";
+	letter-spacing: -1.6px;
+	margin-bottom: 30px;
+
+}
+
+.container {
+	margin-top: 50px;
+}
+
+.image-desc {
+	margin-bottom: 100px;
+	margin-top: 20px;
+	text-align: middle;
+}
+
+.image-title {
+	margin-top: 35px;
+	margin-bottom: 5px;
+	font: 400 33px/30px 'open sans';
+	color: #E89625;
+}
+
+.image-desc .btn {
+	border-radius: 0px;
+	border-width: 2px;
+	color: #666;	
+	border-color: #7FCCFF;
+	font-size: 16px;
+	padding: 5px 25px;
+}
+
+.sub-desc {
+	font-size: 17px;
+	color: #777;
+	font-weight: 300;
+	
+}
+
+.text-container {
+	/*temporary: */
+	padding-left: 32px;
+}
