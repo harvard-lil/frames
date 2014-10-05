@@ -1,17 +1,6 @@
 /* color palette, https://kuler.adobe.com/Dim-light-color-theme-4475373 */
 
 
-a {
-	color: #666;
-	border-bottom: 1px solid #ddd;
-}
-
-a:hover {
-	background-color: #e5f5ff;
-	text-decoration: none;
-	color: #666;
-}
-
 .header-text {
 	line-height: 42px;
 	color: #FF3535;
@@ -52,10 +41,18 @@ img {
 	margin-right: 10px;
 	color: #777;
 	font: 300 16px/22px 'Open Sans', sans-serif;
+	-webkit-transition: 150ms ease-in-out;
+	-moz-transition: 150ms ease-in-out;
+	-o-transition: 150ms ease-in-out;
+	transition: 150ms ease-in-out;
 }
 
 .image-desc .btn:hover {
 	background-color: #e5f5ff;
+	-webkit-transition: 150ms ease-in-out;
+	-moz-transition: 150ms ease-in-out;
+	-o-transition: 150ms ease-in-out;
+	transition: 250ms ease-in-out;
 }
 
 .sub-desc {
@@ -64,3 +61,61 @@ img {
 	font: 300 18px/25px 'Open Sans', sans-serif;
 	
 }
+
+
+a {
+	color: #666;
+	border-bottom: 1px solid #ddd;
+	-webkit-transition: 250ms ease-in-out;
+	-moz-transition: 150ms ease-in-out;
+	-o-transition: 150ms ease-in-out;
+	transition: 150ms ease-in-out;
+}
+
+a:hover {
+	background-color: #e5f5ff;
+	text-decoration: none;
+	color: #666;
+	-webkit-transition: 150ms ease-in-out;
+	-moz-transition: 150ms ease-in-out;
+	-o-transition: 150ms ease-in-out;
+	transition: 150ms ease-in-out;
+}
+
+
+
+
+/* footer start */
+
+.footer {
+    margin-bottom: 20px;
+    margin-top: 55px;
+}
+.branding {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.footer img {
+    height: 50px;
+    margin-left: -14px;
+	margin-top: -5px;
+}
+
+.footer a {
+    font-size: 13px;
+	padding: 3px 0;
+    color: #777;
+	border: none;
+}
+
+.footer a:hover {
+    color: #777;
+    border-bottom: none;
+}
+
+.logo:hover {
+	background-color: #fff;
+}
+
+/* footer end */
