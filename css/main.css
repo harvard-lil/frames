@@ -1,6 +1,17 @@
 /* color palette, https://kuler.adobe.com/Dim-light-color-theme-4475373 */
 
 
+a {
+	color: #666;
+	border-bottom: 1px solid #ddd;
+}
+
+a:hover {
+	background-color: #e5f5ff;
+	text-decoration: none;
+	color: #666;
+}
+
 .header-text {
 	line-height: 42px;
 	color: #FF3535;
@@ -24,7 +35,7 @@ img {
 }
 
 .image-title {
-	margin-top: 35px;
+	margin-top: 30px;
 	margin-bottom: 8px;
 	font: 300 33px/30px 'Lato';
 	color: #E89625;
