@@ -21,6 +21,7 @@
 
 img {
 	padding: 0 20px;
+	max-height: 810px;
 }
 
 .image-title {
@@ -34,7 +35,6 @@ img {
 	border-radius: 2px;
 	border-width: 2px;
 	border-color: #7FCCFF;
-	font-size: 16px;
 	padding-top: 5px;
 	min-width: 220px;
 	letter-spacing: .8px;
@@ -64,7 +64,7 @@ img {
 
 
 a {
-	color: #666;
+	color: #777;
 	border-bottom: 1px solid #ddd;
 	-webkit-transition: 250ms ease-in-out;
 	-moz-transition: 150ms ease-in-out;
