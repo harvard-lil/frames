@@ -31,7 +31,7 @@ img {
 	color: #E89625;
 }
 
-.image-desc .btn {
+.btn {
 	border-radius: 2px;
 	border-width: 2px;
 	border-color: #7FCCFF;
@@ -47,19 +47,27 @@ img {
 	transition: 100ms ease-in-out;
 }
 
-.image-desc .btn:hover {
+.btn:hover {
 	background-color: #e5f5ff;
+	border-color: #7FCCFF;
+	color: #777;
 	-webkit-transition: 100ms ease-in-out;
 	-moz-transition: 100ms ease-in-out;
 	-o-transition: 100ms ease-in-out;
 	transition: 100ms ease-in-out;
 }
 
+.btn:active, .btn.active {
+    background-color: #7FCCFF;
+	border-color: #7FCCFF;
+	color: #fff;
+	box-shadow: none;
+}
+
 .sub-desc {
 	color: #777;
 	margin-bottom: 17px;
 	font: 300 18px/25px 'Open Sans', sans-serif;
-	
 }
 
 
