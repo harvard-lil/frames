@@ -41,18 +41,18 @@ img {
 	margin-right: 10px;
 	color: #777;
 	font: 300 16px/22px 'Open Sans', sans-serif;
-	-webkit-transition: 150ms ease-in-out;
-	-moz-transition: 150ms ease-in-out;
-	-o-transition: 150ms ease-in-out;
-	transition: 150ms ease-in-out;
+	-webkit-transition: 100ms ease-in-out;
+	-moz-transition: 100ms ease-in-out;
+	-o-transition: 100ms ease-in-out;
+	transition: 100ms ease-in-out;
 }
 
 .image-desc .btn:hover {
 	background-color: #e5f5ff;
-	-webkit-transition: 150ms ease-in-out;
-	-moz-transition: 150ms ease-in-out;
-	-o-transition: 150ms ease-in-out;
-	transition: 250ms ease-in-out;
+	-webkit-transition: 100ms ease-in-out;
+	-moz-transition: 100ms ease-in-out;
+	-o-transition: 100ms ease-in-out;
+	transition: 100ms ease-in-out;
 }
 
 .sub-desc {
@@ -67,19 +67,19 @@ a {
 	color: #777;
 	border-bottom: 1px solid #ddd;
 	-webkit-transition: 250ms ease-in-out;
-	-moz-transition: 150ms ease-in-out;
-	-o-transition: 150ms ease-in-out;
-	transition: 150ms ease-in-out;
+	-moz-transition: 100ms ease-in-out;
+	-o-transition: 100ms ease-in-out;
+	transition: 100ms ease-in-out;
 }
 
 a:hover {
 	background-color: #e5f5ff;
 	text-decoration: none;
 	color: #666;
-	-webkit-transition: 150ms ease-in-out;
-	-moz-transition: 150ms ease-in-out;
-	-o-transition: 150ms ease-in-out;
-	transition: 150ms ease-in-out;
+	-webkit-transition: 100ms ease-in-out;
+	-moz-transition: 100ms ease-in-out;
+	-o-transition: 100ms ease-in-out;
+	transition: 100ms ease-in-out;
 }
 
 
