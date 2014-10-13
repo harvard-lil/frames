@@ -17,6 +17,12 @@ img {
 	max-height: 810px;
 }
 
+.device-img {
+	max-height: 550px;
+		max-width: 550px;
+		padding: 0px;
+}
+
 .image-title {
 	margin-top: 30px;
 	margin-bottom: 8px;
