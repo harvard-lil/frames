@@ -13,8 +13,16 @@
 	text-align: middle;
 }
 
-img {
-	max-height: 810px;
+.small-device {
+    max-height: 450px;
+    max-width: 450px;
+    padding: 0;
+}
+
+.medium-device {
+    max-height: 600px;
+    max-width: 600px;
+    padding: 0;
 }
 
 .device-img {
