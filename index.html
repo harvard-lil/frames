@@ -23,6 +23,7 @@
 	<![endif]-->
 		
 	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/handlebars-v2.0.0.js"></script>
 	<script src="js/main.js"></script>
 </head>
 <body>
@@ -35,44 +36,9 @@
 				<p class="sub-desc">Find these frames helpful or want to contribute your own? <a href="mailto:lil@law.harvard.edu">Drop us a note</a>.</p>
 			</div>
 			
-			<div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3">
-				<img src="img/monitor.png" class="img-responsive center-block">
-				<div class="image-desc text-center">
-					<p class="image-title">Monitor</p>
-					<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
-				</div>
-				<img src="img/phone-vertical.png" class="img-responsive center-block small-device">
-				<div class="image-desc text-center">
-					<p class="image-title">Phone</p>
-					<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
-				</div>
-				<img src="img/phone.png" class="img-responsive center-block small-device">
-				<div class="image-desc text-center">
-					<p class="image-title">Phone</p>
-					<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
-				</div>
-				<img src="img/reader.png" class="img-responsive center-block medium-device">
-				<div class="image-desc text-center">
-					<p class="image-title">E-Reader</p>
-					<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
-				</div>
-				<img src="img/tablet.png" class="img-responsive center-block medium-device">
-				<div class="image-desc text-center">
-					<p class="image-title">Tablet</p>
-					<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
-				</div>
-				<img src="img/tablet-vertical.png" class="img-responsive center-block medium-device">
-				<div class="image-desc text-center">
-					<p class="image-title">Tablet</p>
-					<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-					<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
-				</div>
-			</div><!-- /column -->
+			<div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3" id="frame-container">
+
+			</div><!-- /column and frame-container -->
 		</div> <!-- /row -->
 		<div class="row footer">
 			<div class="col-xs-12 col-md-12 col-lg-10 col-lg-offset-1">
@@ -84,5 +50,95 @@
 		</div>
 	</div>
 </div> <!-- /container -->
+
+<script id="monitor-template" type="text/x-handlebars-template">
+	<div class="row">
+		<div class="col-xs-12">	
+			<img src="img/monitor.png" class="img-responsive center-block">
+		</div>
+    </div>
+	<div class="image-desc text-center">
+		<p class="image-title">Monitor</p>
+		<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/phone-vertical.png" class="img-responsive center-block small-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Phone</p>
+		<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/phone.png" class="img-responsive center-block small-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Phone</p>
+		<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/reader.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">E-Reader</p>
+		<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/tablet.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Tablet</p>
+		<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/tablet-vertical.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Tablet</p>
+		<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+	</div>
+</script>
+
+<script id="monitor-compare-template" type="text/x-handlebars-template">
+	<div class="row">
+		<div class="col-xs-6">
+			<img src="img/monitor.png" class="img-responsive center-block">
+		</div>
+		<div class="col-xs-6">
+			<img src="img/monitor.png" class="img-responsive center-block">
+		</div>
+    </div>
+	<div class="image-desc text-center">
+		<p class="image-title">Monitor</p>
+		<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/phone-vertical.png" class="img-responsive center-block small-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Phone</p>
+		<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/phone.png" class="img-responsive center-block small-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Phone</p>
+		<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/reader.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">E-Reader</p>
+		<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/tablet.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Tablet</p>
+		<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	</div>
+	<img src="img/tablet-vertical.png" class="img-responsive center-block medium-device">
+	<div class="image-desc text-center">
+		<p class="image-title">Tablet</p>
+		<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+		<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+	</div>
+</script>
+
 </body>
 </html>

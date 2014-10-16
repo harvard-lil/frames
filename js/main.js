@@ -1,34 +1,32 @@
 $(document).ready(function(){
 
+	// Draw our primary frames on load
+	var source = $("#monitor-template").html();
+	var template = Handlebars.compile(source);
+	$('#frame-container').html(template);
 	
-	
+	// If the "See frames in action" button is clicked, toggle
+	// the empty frames markups with the frame comparisons markup
 	$( "#see-in-action" ).click(function(event) {
 	    event.preventDefault();
 		
-		$("#monitor").fadeOut(300, function() {
-	            $("#monitor").attr('src', 'img/monitor-capture.jpg').fadeIn(400, function() {
-					
-					setTimeout(function(){
-					
-						$("#monitor").hide();
-			            $("#monitor").attr('src', 'img/monitor-capture-frame.jpg').fadeIn(400);
-					
-					
-					}, 3000);
-					
-					
-
-		        })
-        })
-		
-		
-		
-		
-		
-		
-//		$("#monitor").attr('src', 'img/monitor-capture-frame.jpg').fadeIn(1400);;
-
-		
+		if (!$(this).hasClass('active')) {		
+			$("#frame-container").fadeOut(300,function(){
+				var source = $("#monitor-compare-template").html();
+				var template = Handlebars.compile(source);
+				$('#frame-container').html(template);
+			}).fadeIn(600);
+			
+			$(this).addClass('active');
+		} else {
+			$("#frame-container").fadeOut(300,function(){
+				var source = $("#monitor-template").html();
+				var template = Handlebars.compile(source);
+				$('#frame-container').html(template);
+			}).fadeIn(600);
+			
+			$(this).removeClass('active');
+		}
 	});
 });
 	
