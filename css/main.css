@@ -27,8 +27,8 @@
 
 .device-img {
 	max-height: 550px;
-		max-width: 550px;
-		padding: 0px;
+	max-width: 550px;
+	padding: 0px;
 }
 
 .image-title {
@@ -105,6 +105,58 @@ a:hover {
 	transition: 100ms ease-in-out;
 }
 
+@media (min-width:768px) {
+    #see-in-action {
+        min-width: 0;
+        width: 100%;
+    }
+    
+    .phone {
+        width: 475px;
+        padding: 0px;
+    }
+
+    .tablet {
+        width: 600px;
+        padding: 0px;
+    }
+
+    .tablet-vertical {
+        height: 600px;
+        padding: 0px;
+    }
+
+}
+
+/* comparison styling start */
+
+.monitor-raw{
+    margin-bottom: 35px;
+}
+
+.phone-raw{
+    margin-bottom: 23px;
+}
+
+.tablet-raw{
+    margin-bottom: 17px;
+}
+
+@media (max-width:991px) {
+    .reader-raw {
+        margin-bottom: -34px;
+    }
+    
+    .tablet-raw {
+        margin-bottom: 18px;
+    }
+    
+    .tablet-raw-vertical {
+        margin-bottom: -5px;
+    }
+}
+
+/* comparison styling end */
 
 
 
