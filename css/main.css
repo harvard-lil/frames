@@ -1,7 +1,5 @@
 /* color palette, https://kuler.adobe.com/Dim-light-color-theme-4475373 */
 
-
-
 .header-text {
 	color: #FF3535;
 	letter-spacing: -1.6px;
@@ -231,7 +229,6 @@ a:hover {
     
     .header-text {
         text-align: left;
-    	width: 3em;
     	margin-top: -11px;
 		font: 300 65px/55px "Lato";
 		margin-bottom: 45px;
