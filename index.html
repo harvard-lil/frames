@@ -8,6 +8,21 @@
 
 	<link rel="shortcut icon" href="img/favicon.png" />
 
+	<!-- Facebook Open Graph -->
+	<meta property="og:title" content="Screen captures want context" />
+	<meta property="og:site_name" content="Screen captures want context"/>
+	<meta property="og:url" content="http://librarylab.law.harvard.edu/frames" />
+	<meta property="og:description" content="Focus attention on your content by putting your screen captures in these freely licensed frames." />
+	<meta property="og:image" content="img/monitor.png" />
+
+	<!-- Twitter card -->
+	<meta name="twitter:card" content="Screen captures want context">
+	<meta name="twitter:site" content="@harvardlil">
+	<meta name="twitter:title" content="Screen captures want context">
+	<meta name="twitter:description" content="Focus attention on your content by putting your screen captures in these freely licensed frames.">
+	<meta name="twitter:image" content="img/monitor.png" >
+
+
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
@@ -33,7 +48,7 @@
 				<p class="header-text">screen captures want context</p>
 				<p class="sub-desc">Focus attention on your content by putting your screen captures in these <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">freely licensed</a> frames.</p>
 				<a href="#" class="btn btn-default navbar-btn" id="see-in-action" role="button">See frames in action</a>
-				<p class="sub-desc">Find these frames helpful or want to contribute your own? <a href="mailto:lil@law.harvard.edu">Drop us a note</a> or <a href="https://github.com/harvard-lil/frames" target="_blank">work with the source</a>.</p>
+				<p class="sub-desc">Find these frames helpful or want to contribute your own? <a href="mailto:mphillips@law.harvard.edu">Drop us a note</a> or <a href="https://github.com/harvard-lil/frames" target="_blank">work with the source</a>.</p>
 			</div>
 			
 			<div class="col-sm-8 col-sm-pull-4 col-md-9 col-md-pull-3" id="frame-container">
@@ -48,200 +63,199 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</div> <!-- /container -->
+	</div> <!-- /container -->
 
-<script id="monitor-template" type="text/x-handlebars-template">
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/monitor.png" class="img-responsive center-block">
-		</div>
-    </div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">Monitor</p>
-				<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	<script id="monitor-template" type="text/x-handlebars-template">
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/monitor.png" class="img-responsive center-block monitor">
+			</div>
+	    </div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">Monitor</p>
+					<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/phone-vertical.png" class="img-responsive center-block small-device">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Phone</p>
-				<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/phone-vertical.png" class="img-responsive center-block phone-vertical phone-vertical-constrained">
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/phone.png" class="img-responsive center-block phone">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Phone</p>
-				<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Phone</p>
+					<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/reader.png" class="img-responsive center-block tablet-vertical">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">E-Reader</p>
-				<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/phone.png" class="img-responsive center-block phone phone-constrained">
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/tablet.png" class="img-responsive center-block tablet">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Tablet</p>
-				<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Phone</p>
+					<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<img src="img/tablet-vertical.png" class="img-responsive center-block tablet-vertical">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">Tablet</p>
-				<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/reader.png" class="img-responsive center-block tablet-vertical">
 			</div>
 		</div>
-	</div>
-</script>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">E-Reader</p>
+					<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/tablet.png" class="img-responsive center-block tablet">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Tablet</p>
+					<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">	
+				<img src="img/tablet-vertical.png" class="img-responsive center-block tablet-vertical">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">Tablet</p>
+					<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+	</script>
 
-<script id="monitor-compare-template" type="text/x-handlebars-template -">
-	<div class="row">
-		<div class="col-xs-12">
-			<img src="img/comp-images/monitor-raw.jpg" class="img-responsive center-block monitor-raw">
-		</div>
-		<div class="col-xs-12">
-			<img src="img/comp-images/monitor-framed.jpg" class="img-responsive center-block">
-		</div>
-    </div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">Monitor</p>
-				<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+	<script id="monitor-compare-template" type="text/x-handlebars-template -">
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="img/comp-images/monitor-raw.jpg" class="img-responsive center-block monitor-raw">
+			</div>
+			<div class="col-xs-12">
+				<img src="img/comp-images/monitor-framed.jpg" class="img-responsive center-block">
+			</div>
+	    </div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">Monitor</p>
+					<a href="img/monitor.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/monitor.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-6">
-			<img src="img/comp-images/phone-vertical-raw.jpg" class="img-responsive center-block small-device pull-right">
-		</div>
-		<div class="col-xs-6">
-			<img src="img/comp-images/phone-vertical-framed.jpg" class="img-responsive center-block small-device pull-left">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Phone</p>
-				<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="img/comp-images/phone-vertical-raw.jpg" class="img-responsive stack-center pull-right phone-vertical-constrained">
+			</div>
+			<div class="col-sm-6">
+				<img src="img/comp-images/phone-vertical-framed.jpg" class="img-responsive phone-framed stack-center pull-left phone-vertical-constrained">
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<img src="img/comp-images/phone-raw.jpg" class="img-responsive center-block phone-raw">
-		</div>
-		<div class="col-xs-12">
-			<img src="img/comp-images/phone-framed.jpg" class="img-responsive center-block">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Phone</p>
-				<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Phone</p>
+					<a href="img/phone-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/phone-vertical.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<img src="img/comp-images/reader-raw.jpg" class="img-responsive center-block reader-raw">
-		</div>
-		<div class="col-md-6">
-			<img src="img/comp-images/reader-framed.jpg" class="img-responsive center-block">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">E-Reader</p>
-				<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="img/comp-images/phone-raw.jpg" class="img-responsive center-block phone-raw phone-constrained">
+			</div>
+			<div class="col-xs-12">
+				<img src="img/comp-images/phone-framed.jpg" class="img-responsive center-block phone-constrained">
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<img src="img/comp-images/tablet-raw.jpg" class="img-responsive center-block tablet-raw">
-		</div>
-		<div class="col-xs-12">
-			<img src="img/comp-images/tablet-framed.jpg" class="img-responsive center-block">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">	
-			<div class="image-desc text-center">
-				<p class="image-title">Tablet</p>
-				<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Phone</p>
+					<a href="img/phone.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/phone.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<img src="img/comp-images/tablet-vertical-raw.jpg" class="img-responsive center-block tablet-raw-vertical">
-		</div>
-		<div class="col-md-6">
-			<img src="img/comp-images/tablet-vertical-framed.jpg" class="img-responsive center-block">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="image-desc text-center">
-				<p class="image-title">Tablet</p>
-				<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
-				<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/comp-images/reader-raw.jpg" class="pull-right reader-raw stack-center">
+			</div>
+			<div class="col-md-6">
+				<img src="img/comp-images/reader-framed.jpg" class="pull-left stack-center">
 			</div>
 		</div>
-	</div>
-</script>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">E-Reader</p>
+					<a href="img/reader.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/reader.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="img/comp-images/tablet-raw.jpg" class="img-responsive center-block tablet-raw">
+			</div>
+			<div class="col-xs-12">
+				<img src="img/comp-images/tablet-framed.jpg" class="img-responsive center-block">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">	
+				<div class="image-desc text-center">
+					<p class="image-title">Tablet</p>
+					<a href="img/tablet.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/tablet.ai" class="btn btn-default navbar-btn" role="button">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="img/comp-images/tablet-vertical-raw.jpg" class="img-responsive pull-right tablet-raw-vertical stack-center">
+			</div>
+			<div class="col-md-6">
+				<img src="img/comp-images/tablet-vertical-framed.jpg" class="img-responsive pull-left stack-center">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="image-desc text-center">
+					<p class="image-title">Tablet</p>
+					<a href="img/tablet-vertical.png" class="btn btn-default navbar-btn" role="button" target="blank">Open full resolution PNG</a>
+					<a href="img/tablet-vertical.ai" class="btn btn-default navbar-btn" role="button" target="blank">Download Illustrator file</a>
+				</div>
+			</div>
+		</div>
+	</script>
 
 </body>
 </html>

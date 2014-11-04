@@ -13,24 +13,6 @@
 	text-align: middle;
 }
 
-.small-device {
-    max-height: 475px;
-    max-width: 475px;
-    padding: 0;
-}
-
-.medium-device {
-    max-height: 600px;
-    max-width: 600px;
-    padding: 0;
-}
-
-.device-img {
-	max-height: 550px;
-	max-width: 550px;
-	padding: 0px;
-}
-
 .image-title {
 	margin-top: 30px;
 	margin-bottom: 8px;
@@ -111,10 +93,6 @@ a:hover {
         width: 100%;
     }
     
-    .phone {
-        width: 475px;
-        padding: 0px;
-    }
 
     .tablet {
         width: 600px;
@@ -127,6 +105,21 @@ a:hover {
     }
 
 }
+
+.monitor {
+	padding: 0;
+}
+
+.phone {
+    width: 475px;
+    padding: 0px;
+}
+
+.phone-vertical {
+    height: 475px;
+    padding: 0px;
+}
+
 
 /* comparison styling start */
 
@@ -143,6 +136,14 @@ a:hover {
 }
 
 @media (max-width:991px) {
+	
+	.stack-center {
+		float: none!important;;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
     .reader-raw {
         margin-bottom: -34px;
     }
@@ -155,7 +156,6 @@ a:hover {
         margin-bottom: -5px;
     }
 }
-
 /* comparison styling end */
 
 
@@ -173,7 +173,6 @@ a:hover {
 
 .footer img {
     height: 50px;
-    margin-left: -14px;
 	margin-top: -5px;
 }
 
