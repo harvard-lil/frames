@@ -194,9 +194,22 @@ a:hover {
 
 /* media queries start */
 
-
 @media (max-width:399px) {
 
+    .container {
+    	margin-top: 20px;
+    }
+    
+    .text-container {
+        text-align: center;
+    }
+    
+    .header-text {
+        text-align: center;
+    	margin-top: -11px;
+    	font: 300 55px/50px "Lato";	
+		margin-bottom: 25px;
+    }    
 }
 
 @media (min-width:400px) {
@@ -214,9 +227,7 @@ a:hover {
     	margin-top: -11px;
     	font: 300 55px/50px "Lato";	
 		margin-bottom: 25px;
-    }
-
-    
+    }    
 }
 @media (min-width:768px) {
     .text-container {
